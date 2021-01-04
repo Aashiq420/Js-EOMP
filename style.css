@@ -33,4 +33,7 @@ h5 {
 
 /*end typewriter*/
 @media screen and (max-width: 759px) {
+  .landing p {
+    width: 250px;
+  }
 }
