@@ -1,79 +1,36 @@
-/*NAVBAR CSS*/
-.dropbtn {
-  /*color: rgb(72, 104, 175);*/
-  color: rgb(164, 183, 224);
-  text-align: center;
-  padding: 10px 25px 10px 25px;
-  text-decoration: none;
-  font-size: 18px;
-  float: left;
-  background-color: transparent;
-  outline: none;
-  overflow: hidden;
-  border: none;
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+}
+.logo img {
+  width: 200px;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.w3-third img {
+  margin-bottom: -6px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.w3-third img:hover {
+  opacity: 1;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+/*typewriter*/
+
+.landing p {
+  align-content: center;
   z-index: 1;
-}
-
-.dropdown-content a {
   color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  font: 50px Comic, sans-serif;
+  width: 400px;
+  margin: 10px;
+  padding-top: 20px;
 }
 
-.dropdown-content a:hover {
-  color: white;
-  text-shadow: 1px 1px black;
-  background-color: rgb(144, 77, 175);
-  border-radius: 10px 10px 10px 10px;
+/*end typewriter*/
+@media screen and (max-width: 759px) {
 }
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  background-color: rgb(61, 91, 155);
-  border-radius: 10px 10px 10px 10px;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: rgb(61, 91, 155);
-  color: white;
-  font-size: 20px;
-  text-shadow: 1px 1px black;
-  border-radius: 10px 10px 10px 10px;
-}
-
-.navitems {
-  margin-left: 120px;
-  margin-top: -54px;
-}
-
-.navitems a {
-  color: rgb(164, 183, 224);
-  text-align: center;
-  padding: 10px 25px 10px 25px;
-  text-decoration: none;
-  font-size: 18px;
-  float: left;
-}
-
-.navitems a:hover {
-  background-color: rgb(41, 76, 153);
-  font-size: 20px;
-  color: white;
-  text-shadow: 1px 1px black;
-  border-radius: 10px 10px 10px 10px;
-}
-/*NAVBAR CSS^^*/
