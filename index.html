@@ -18,14 +18,11 @@
   <body onload="typeWriter()", class="w3-light-grey w3-content" style="max-width: 1600px">
     <!-- Sidebar/menu -->
     <nav
-      class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+      class="w3-sidebar w3-bar-block w3-aqua w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
       style="z-index: 3; width: 300px; font-weight: bold"
       id="mySidebar"
     >
       <br />
-      <!-- <h3 class="w3-padding-64 w3-center">
-        <b>SOME<br />NAME</b>
-      </h3> -->
       <div class="logo">
         <a href="index.html">
           <img src="aashiq7.png" alt="logo" />
@@ -41,11 +38,10 @@
       >
       <a href="#testimonials" onclick="w3_close()" class="w3-bar-item w3-button"
       >TESTIMONIALS</a
-    >
+        >
       <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"
         >CONTACT</a
-      >
-    
+        >
       <a
       href="javascript:void(0)"
       onclick="w3_close()"
@@ -56,12 +52,17 @@
 
     <!-- Top menu on small screens -->
     <header
-      class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16"
+      class="w3-container w3-top w3-hide-large w3-aqua w3-xlarge w3-padding-16"
     >
-      <span class="w3-left w3-padding">Aashiq's Portfolio</span>
+      <span class="w3-left w3-padding" >
+          <div class="logo">
+          <a href="index.html">
+          <img src="aashiq7.png" alt="logo"/>
+        </a>
+    </div> </span>
       <a
         href="javascript:void(0)"
-        class="w3-right w3-button w3-white"
+        class="w3-right w3-button w3-aqua"
         onclick="w3_open()"
         >☰</a
       >
@@ -85,11 +86,15 @@
   
     
 
-      <!-- Pagination -->
+     
       <div class="w3-center w3-padding-32">
         <div class="landing">
             <p id="typed"></p>
+            <hr class="w3-opacity w3-black"/>
+
           </div>
+
+           <!-- Pagination -->
         <div class="w3-bar">
           <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
           <a href="#" class="w3-bar-item w3-black w3-button">1</a>
@@ -139,36 +144,36 @@
           <hr class="w3-opacity" />
           <h4 class="w3-padding-16">Programming Skills</h4>
           <p class="w3-wide">Python</p>
-          <div class="w3-white">
+          <div class="w3-grey">
             <div
-              class="w3-container w3-padding-small w3-center w3-grey"
+              class="w3-container w3-padding-small w3-center w3-aqua"
               style="width: 95%"
             >
               95%
             </div>
           </div>
           <p class="w3-wide">HTML</p>
-          <div class="w3-white">
+          <div class="w3-grey">
             <div
-              class="w3-container w3-padding-small w3-center w3-grey"
+              class="w3-container w3-padding-small w3-center w3-aqua"
               style="width: 85%"
             >
               85%
             </div>
           </div>
           <p class="w3-wide">CSS</p>
-          <div class="w3-white">
+          <div class="w3-grey">
             <div
-              class="w3-container w3-padding-small w3-center w3-grey"
+              class="w3-container w3-padding-small w3-center w3-aqua"
               style="width: 70%"
             >
               70%
             </div>
           </div>
           <p class="w3-wide">JavaScript</p>
-          <div class="w3-white">
+          <div class="w3-grey">
             <div
-              class="w3-container w3-padding-small w3-center w3-grey"
+              class="w3-container w3-padding-small w3-center w3-aqua"
               style="width: 75%"
             >
               75%
@@ -178,7 +183,7 @@
             <button
               class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom"
             >
-              Download Resume
+              View C.V
             </button>
           </p>
           <hr class="w3-opacity" />
@@ -230,20 +235,19 @@
         </div>
       </div>-->
 
-      <!-- Contact section -->
-      <div
-        class="w3-container w3-light-grey w3-padding-32 w3-padding-large"
-        id="contact"
-      >
-       
-<div id="testimonials">
-    TESTIMONIALS
+      <!-- testimonials-->
+    
+      <div id="testimonials" class="w3-content" style="max-width: 600px">
+        
+
+    <h4 class="w3-center"><b>Testimonials</b></h4>
+
 </div>
-      </div>
+      
       <hr class="w3-opacity" />
 
-<!--testimonials-->
-<div class="w3-content" style="max-width: 600px">
+<!--contact section-->
+<div id="contact" class="w3-content" style="max-width: 600px">
     <h4 class="w3-center"><b>Contact Me</b></h4>
     <p>
       Do you want me to code for you? Fill out the form and fill me in
@@ -329,7 +333,7 @@
               <div class="tooltip">Github</div>
               <span><i class="fab fa-github"></i></span>
             </div>
-            <div class="icon youtube">
+            <div class="icon linkedin">
               <div class="tooltip">LinkedIn</div>
               <span><i class="fab fa-linkedin-in"></i></span>
             </div>
