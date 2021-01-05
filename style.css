@@ -58,6 +58,9 @@ h5 {
   .logo img {
     width: 80px;
   }
+  html {
+    background-color: aqua;
+  }
 }
 
 @media screen and (max-width: 200px) {
