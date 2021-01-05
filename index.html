@@ -18,7 +18,7 @@
   <body onload="typeWriter()", class="w3-light-grey w3-content" style="max-width: 1600px">
     <!-- Sidebar/menu -->
     <nav
-      class="w3-sidebar w3-bar-block w3-aqua w3-animate-left w3-text-black w3-collapse w3-top w3-center"
+      class="w3-sidebar w3-bar-block w3-aqua w3-animate-left w3-text-dark-grey w3-collapse w3-top w3-center"
       style="z-index: 3; width: 300px; font-weight: bold"
       id="mySidebar"
     >
@@ -78,21 +78,27 @@
     ></div>
 
     <!-- !PAGE CONTENT! -->
-    
+   
     <div class="w3-main" style="margin-left: 300px">
        
       <!-- Push down content on small screens -->
       <div class="w3-hide-large" style="margin-top: 83px"></div>
-  
-    
 
      
-      <div class="w3-center w3-padding-32">
+      <div class="w3-center w3-padding-32 w3-aqua">
         <div class="landing">
             <p id="typed"></p>
             <hr class="w3-opacity w3-black"/>
 
           </div>
+<!-- projects -->
+            <div class="w3-row">
+                <div class="w3-third">
+                <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="project 1">
+                <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="project 2">
+                <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="project 3">
+                </div>
+            </div>
 
            <!-- Pagination -->
         <div class="w3-bar">
@@ -327,7 +333,7 @@
           </div>
         </div>
       </footer> -->
-      <div class="w3-black w3-center w3-padding-24">
+      <div class="w3-aqua w3-center w3-padding-24">
         <div class="wrapper">
             <div class="icon github">
               <div class="tooltip">Github</div>
@@ -337,6 +343,10 @@
               <div class="tooltip">LinkedIn</div>
               <span><i class="fab fa-linkedin-in"></i></span>
             </div>
+            <div class="icon gmail">
+                <div class="tooltip">Gmail</div>
+                <span><i class="fas fa-at"></i></span>
+              </div>
           </div>
       </div>
 

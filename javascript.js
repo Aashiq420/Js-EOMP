@@ -10,7 +10,7 @@ function w3_close() {
 
 //typewriter
 var i = 0;
-var txt = "Hello There! \nMy name is Aashiq \nWelcome to my online portfolio";
+var txt = "Hello There! My name is Aashiq, Welcome to my online portfolio";
 var spd = 80;
 function typeWriter() {
   if (i < txt.length) {
@@ -18,4 +18,13 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, spd);
   }
+}
+//end typewriter
+
+//img thing
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
 }

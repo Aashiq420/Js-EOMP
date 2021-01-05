@@ -6,6 +6,15 @@ h4,
 h5 {
   font-family: "Raleway", sans-serif;
 }
+.w3-third img {
+  margin-bottom: -6px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.w3-third img:hover {
+  opacity: 1;
+}
+
 .logo img {
   width: 200px;
 }
@@ -160,6 +169,14 @@ h5 {
   background-color: #0077b5;
   color: #ffffff;
 }
+
+.wrapper .gmail:hover,
+.wrapper .gmail:hover .tooltip,
+.wrapper .gmail:hover .tooltip::before {
+  background-color: #f14236;
+  color: #ffffff;
+}
+
 /* end popup */
 
 /* w3 for now */
