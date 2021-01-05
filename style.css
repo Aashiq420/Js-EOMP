@@ -435,7 +435,7 @@ a {
 }
 .w3-hoverable tbody tr:hover,
 .w3-ul.w3-hoverable li:hover {
-  background-color: #ccc;
+  background-color: #000;
 }
 .w3-centered tr th,
 .w3-centered tr td {
