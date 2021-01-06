@@ -3,7 +3,7 @@
   <title>Aashiq Adams - Portfolio</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="style.css" />
   <link
     rel="stylesheet"
@@ -88,17 +88,25 @@
       <div class="w3-center w3-padding-32 w3-aqua">
         <div class="landing">
             <p id="typed"></p>
-            <hr class="w3-opacity w3-black"/>
 
           </div>
 <!-- projects -->
-            <div class="w3-row">
-                <div class="w3-third">
-                <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="project 1">
-                <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="project 2">
-                <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="project 3">
+            <div class="w3-row" >
+              <h2>Some of my Projects</h2>
+                <div class="w3-third" id="project">
+                  
+                <img src="/jscalc.png" style="width:100%" onclick="onClick(this)" alt="Simple calculator using HTML, CSS and JavaScript">
+                <img src="/swegga.png" style="width:100%" onclick="onClick(this)" alt="Fashion website with table and calculate button">
+                <img src="/mathweb.png" style="width:100%" onclick="onClick(this)" alt="Mathematics website for grade 10, 11 and 12">
                 </div>
             </div>
+            <div class="w3-row">
+              <div class="w3-third" id="project">
+              <img src="/weather.png" style="width:100%" onclick="onClick(this)" alt="Weather app using API, gives forcast for any given city/region">
+              <img src="/musicplayer.png" style="width:100%" onclick="onClick(this)" alt="A simple music player">
+              <img src="/bmi.png" style="width:100%" onclick="onClick(this)" alt="A BMI calculator made using python">
+              </div>
+          </div>
 
            <!-- Pagination -->
         <div class="w3-bar">
@@ -149,7 +157,9 @@
           <p>tel: 5353 35531</p>
           <hr class="w3-opacity" />
           <h4 class="w3-padding-16">Programming Skills</h4>
-          <p class="w3-wide">Python</p>
+          <p class="w3-wide" id="fontawesome"><i class="fab fa-python"></i>
+
+            Python</p>
           <div class="w3-grey">
             <div
               class="w3-container w3-padding-small w3-center w3-aqua"
@@ -158,7 +168,7 @@
               95%
             </div>
           </div>
-          <p class="w3-wide">HTML</p>
+          <p class="w3-wide" id="fontawesome"><i class="fab fa-html5"></i> HTML</p>
           <div class="w3-grey">
             <div
               class="w3-container w3-padding-small w3-center w3-aqua"
@@ -167,7 +177,7 @@
               85%
             </div>
           </div>
-          <p class="w3-wide">CSS</p>
+          <p class="w3-wide" id="fontawesome"><i class="fab fa-css3-alt"></i> CSS</p>
           <div class="w3-grey">
             <div
               class="w3-container w3-padding-small w3-center w3-aqua"
@@ -176,7 +186,7 @@
               70%
             </div>
           </div>
-          <p class="w3-wide">JavaScript</p>
+          <p class="w3-wide" id="fontawesome"><i class="fab fa-js-square"></i> JavaScript</p>
           <div class="w3-grey">
             <div
               class="w3-container w3-padding-small w3-center w3-aqua"
@@ -344,8 +354,8 @@
               <span><i class="fab fa-linkedin-in"></i></span>
             </div>
             <div class="icon gmail">
-                <div class="tooltip">Gmail</div>
-                <span><i class="fas fa-at"></i></span>
+                <div class="tooltip">adams.aashiq@gmail.com</div>
+              <span><i class="fas fa-at"></i></span>
               </div>
           </div>
       </div>

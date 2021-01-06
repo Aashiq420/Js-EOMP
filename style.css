@@ -7,16 +7,35 @@ h5 {
   font-family: "Raleway", sans-serif;
 }
 .w3-third img {
-  margin-bottom: -6px;
+  margin-bottom: 5px;
   opacity: 0.8;
   cursor: pointer;
 }
 .w3-third img:hover {
   opacity: 1;
 }
+div #project {
+  display: flex;
+  float: left;
+  /* width: 33.33%; */
+  padding: 5px;
+}
 
 .logo img {
   width: 200px;
+}
+
+#fontawesome i {
+  color: black;
+}
+#typed {
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 2px 2px grey;
+}
+.linkbtn {
+  text-decoration: none;
+  border-width: 0px;
+  background-color: transparent;
 }
 
 /*typewriter*/
@@ -47,6 +66,12 @@ h5 {
   }
   .logo img {
     width: 120px;
+  }
+  div #project {
+    display: table;
+    float: left;
+    /* width: 33.33%; */
+    padding: 5px;
   }
 }
 
