@@ -40,7 +40,6 @@ div #project {
 }
 #typed {
   font-family: "Courier New", Courier, monospace;
-  text-shadow: 2px 2px grey;
 }
 .linkbtn {
   text-decoration: none;
@@ -103,10 +102,6 @@ div #project {
   }
   html {
     background-color: aqua;
-  }
-  #typed {
-    font-family: "Courier New", Courier, monospace;
-    text-shadow: none;
   }
 }
 
