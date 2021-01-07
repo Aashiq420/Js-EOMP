@@ -114,6 +114,10 @@ div #project {
   .logo img {
     width: 50px;
   }
+  #typed {
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 1px 1px grey;
+  }
 }
 /* end response of typewriter */
 
