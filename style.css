@@ -104,6 +104,10 @@ div #project {
   html {
     background-color: aqua;
   }
+  #typed {
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: none;
+  }
 }
 
 @media screen and (max-width: 200px) {
@@ -116,7 +120,7 @@ div #project {
   }
   #typed {
     font-family: "Courier New", Courier, monospace;
-    text-shadow: 1px 1px grey;
+    text-shadow: none;
   }
 }
 /* end response of typewriter */
