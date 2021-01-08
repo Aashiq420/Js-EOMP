@@ -21,10 +21,26 @@ function typeWriter() {
 }
 //end typewriter
 
-//img thing
+//img enlarge
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
+}
+
+//display
+function display() {
+  if (document.getElementById("mywhatsapp").innerHTML == "Whatsapp") {
+    document.getElementById("mywhatsapp").innerHTML = "0732581571";
+  } else if (document.getElementById("mywhatsapp").innerHTML == "0732581571") {
+    document.getElementById("mywhatsapp").innerHTML = "Whatsapp";
+  }
+  if (document.getElementById("myemail").innerHTML == "Email") {
+    document.getElementById("myemail").innerHTML = "adams.aashiq@gmail.com";
+  } else if (
+    document.getElementById("myemail").innerHTML == "adams.aashiq@gmail.com"
+  ) {
+    document.getElementById("myemail").innerHTML = "Email";
+  }
 }

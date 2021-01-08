@@ -109,11 +109,18 @@
               <h5 class="w3-justify"> <i class="fab fa-python"></i> Python:</h5>
 
               <div class="w3-third" id="project">
-              <img src="/weather.png" style="width:100%" onclick="onClick(this)" alt="Weather app using API, gives forcast for any given city/region">
-              <img src="/musicplayer.png" style="width:100%" onclick="onClick(this)" alt="A simple music player">
-              <img src="/bmi.png" style="width:100%" onclick="onClick(this)" alt="A BMI calculator made using python">
+              <img src="/weatherapi.png" style="width:100%" onclick="onClick(this)" alt="Weather app using API, gives forcast for any given city/region. <a href='https://github.com/Aashiq420/weather-api.git' target='_blank'>View code</a>">
+              <img src="/music.png" style="width:100%" onclick="onClick(this)" alt="A simple music player. <a href='https://github.com/Aashiq420/musicplayer.git' target='_blank'>View code</a>">
+              <img src="/bmi.png" style="width:100%" onclick="onClick(this)" alt="A BMI calculator made using python. <a href='https://github.com/Aashiq420/simple-bmi.git' target='_blank'>View code</a>">
               </div>
           </div>
+          <div class="w3-row projects w3-text-light-grey w3-dark-grey">
+            <div class="w3-third" id="project">
+            <img src="/lotto.png" style="width:100%" onclick="onClick(this)" alt="Mock Lottery app with login and details page. <a href='https://github.com/Aashiq420/Python_EOMP.git' target='_blank'>View code</a>">
+            <img src="/sick.png" style="width:100%" onclick="onClick(this)" alt="Simple medical practice program. <a href='https://github.com/Aashiq420/sick-class.git' target='_blank'>View code</a>">
+            <img src="/piglatin.png" style="width:100%" onclick="onClick(this)" alt="A piglatin converter made using python. <a href='https://github.com/Aashiq420/piglatin.git' target='_blank'>View code</a>">
+            </div>
+        </div>
           <!-- end projects -->
       </div>
 
@@ -224,11 +231,10 @@
       <!-- testimonials-->
     
       <div id="testimonials" class="w3-content" style="max-width: 600px">
-        
-
-    <h4 class="w3-center"><b>Testimonials</b></h4>
-<p>coming soon</p>
-</div>
+        <h4 class="w3-center"><b>Testimonials</b></h4>
+        <img src="testmeme.jpg" alt="" style="border: 5px solid grey">
+        <p>coming soon</p>
+      </div>
       
       <hr class="w3-opacity" />
 
@@ -238,12 +244,8 @@
     <p>
      Do you want to send me a message? Feel free to do so in the form below, also check out my Github or LinkedIn via the links below the form
     </p>
-    <form action="mailto:adams.aashiq@gmail.com" 
-    method="POST" 
-    enctype="multipart/form-data" 
-    name=”EmailForm”
-    target="_blank">
-      <div class="w3-section">
+    <form action="https://formspree.io/f/xgeprkry" method="POST">
+    <div class="w3-section">
         <label>Name</label>
         <input
           class="w3-input w3-border"
@@ -264,12 +266,6 @@
       <div class="w3-section">
         <i class="fas fa-phone-alt"></i>
         <label>Message</label>
-        <!-- <input
-          class="w3-input w3-border"
-          type="text"
-          name="Message"
-          required
-        /> -->
         <textarea class="w3-input w3-border" name=”Message” required ></textarea>
         </textarea>
       </div>
@@ -286,22 +282,28 @@
 <!-- Footer -->
       <div class="w3-green w3-center w3-padding-24">
         <div class="wrapper">
+          <a href="https://github.com/aashiq420" target="_blank">
             <div class="icon github">
               <div class="tooltip">Github</div>
               <span><i class="fab fa-github"></i></span>
-            </div>
+            </div></a>
+            
+            <a href="https://www.linkedin.com/in/aashiq-adams-96291499/" target="_blank">
             <div class="icon linkedin">
               <div class="tooltip">LinkedIn</div>
               <span><i class="fab fa-linkedin-in"></i></span>
-            </div>
-            <div class="icon gmail">
-                <div class="tooltip">Email</div>
-              <span><i class="fas fa-at"></i></span>
-              </div>
-              <div class="icon whatsapp">
-                <div class="tooltip">Whatsapp</div>
-              <span><i class="fab fa-whatsapp"></i></span>
-              </div>
+            </div></a>
+                  <div class="icon gmail" onclick="display()">
+                    <div class="tooltip" id="myemail">Email</div>
+                    <span><i class="fas fa-at"></i></span>
+                  </div>
+
+            
+                  <div class="icon whatsapp" onclick="display()">
+                    <div class="tooltip" id="mywhatsapp">Whatsapp</div>
+                    <span><i class="fab fa-whatsapp"></i></span>
+                  </div>
+
           </div>
       </div>
 
