@@ -36,6 +36,8 @@ function display() {
   } else if (document.getElementById("mywhatsapp").innerHTML == "0732581571") {
     document.getElementById("mywhatsapp").innerHTML = "Whatsapp";
   }
+}
+function display2() {
   if (document.getElementById("myemail").innerHTML == "Email") {
     document.getElementById("myemail").innerHTML = "adams.aashiq@gmail.com";
   } else if (
