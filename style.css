@@ -4,6 +4,8 @@ h2,
 h3,
 h4,
 h5 {
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: "Raleway", sans-serif;
 }
 /* main content */
@@ -144,8 +146,9 @@ div #project {
 }
 
 .wrapper {
-  display: inline-flex;
+  display: flex;
   align-content: center;
+  padding-left: 26vw;
 }
 
 .wrapper .icon {
@@ -233,3 +236,7 @@ div #project {
 }
 
 /* end popup */
+
+.w3-padding-24 {
+  margin-left: -16px;
+}
